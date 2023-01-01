@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'Screens/LoginScreen.dart';
 import 'Screens/HomeScreen.dart';
+import 'Screens/TestScreen.dart';
 
 void main() {
   runApp(
@@ -15,6 +16,7 @@ void main() {
         '/': (context) => const LoginScreen(),
         // When navigating to the "/second" route, build the HomeScreen widget.
         '/home': (context) => const HomeScreen(),
+        '/test': (context) => const TestScreen(),
       },
     ),
   );
